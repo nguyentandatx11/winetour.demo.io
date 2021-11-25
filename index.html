@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Tours</title>
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="./asset/base.css">
+    <link rel="stylesheet" href="./asset/main.css">
+    <link rel="stylesheet" href="./asset/grid.css">
+    <link rel="stylesheet" href="./asset/reponsive.css">
+</head>
+<body>
+    <div class="main grid"> 
+        <div class="header">
+            <div class="header__contact">
+                <a href ='mailto:setsail@qode.com' class="contact__email">
+                    <i class="ti-email contact__email-icon"></i>
+                    <span class="contact__email-address">setsail@qode.com</span>
+                </a>
+                <a href="tel:1 562 867 5309" class="contact__phone">
+                    <i class="ti-mobile contact__phone-icon"></i>
+                    <span class="contact__phone-number">1 562 867 5309</span> 
+                </a>
+                <a href="#" class="contact__location">
+                    <i class="ti-location-pin contact__location-icon"></i>
+                    <span class="contact__location-name">Broadway & Morris St, New York</span>
+                </a>
+            </div>
+            <div class="header__contact-social">
+                <div class="contact__social">
+                    <a href="#" class="contact__twitter"><i class="ti-twitter-alt"></i></a>
+                    <a href="#" class="contact__pinterest"><i class="ti-pinterest"></i></a>
+                    <a href="#" class="contact__facebook"><i class="ti-facebook"></i></a>
+                    <a href="#" class="contact__instagram"><i class="ti-instagram"></i></a>
+                </div>
+                <div class="change__languages">
+                    <span class="languages__main">English 
+                        <i class="ti-angle-down angle-down-icon"></i>
+                    </span>   
+                    <ul class="language__list">
+                        <li class="language__items hover-underline-animation-2"><a href="#" class="hover-animation">French</a></li>
+                        <li class="language__items hover-underline-animation-2"><a href="#" class="hover-animation">German</a></li>
+                        <li class="language__items hover-underline-animation-2"><a href="#" class="hover-animation">Italian</a></li>
+                    </ul>
+                </div>
+                <label for="turn-on" class="user__login">
+                    <svg class="login-icon" version="1.1" x="0px" y="0px" viewBox="0 0 23 23" enable-background="new 0 0 23 23" xml:space="preserve">
+                        <g>
+                        <path fill="currentColor" d="M11.5,14.1c-2.2,0-4-1.8-4-4c0-2.2,1.8-4,4-4s4,1.8,4,4C15.5,12.3,13.7,14.1,11.5,14.1z M11.5,7.3
+                                    c-1.6,0-2.8,1.3-2.8,2.8c0,1.6,1.3,2.8,2.8,2.8s2.8-1.3,2.8-2.8C14.3,8.5,13,7.3,11.5,7.3z"></path>
+                        <path fill="currentColor" d="M11.5,23c-3.1,0-5.9-1.2-8.1-3.4c-2.2-2.2-3.4-5-3.4-8.1s1.2-5.9,3.4-8.1c2.2-2.2,5-3.4,8.1-3.4
+                                    s5.9,1.2,8.1,3.4c2.2,2.2,3.4,5,3.4,8.1s-1.2,5.9-3.4,8.1C17.4,21.8,14.5,23,11.5,23z M11.5,1.2C5.8,1.2,1.2,5.9,1.2,11.5
+                                    s4.6,10.3,10.3,10.3s10.3-4.6,10.3-10.3S17.1,1.2,11.5,1.2z"></path>
+                        <path fill="currentColor" d="M11.5,23c-1.5,0-2.9-0.3-4.2-0.8c-0.2-0.1-0.4-0.3-0.4-0.6v-5.3c0-1.8,1.5-3.3,3.3-3.3h2.6
+                                    c1.8,0,3.3,1.5,3.3,3.3v5.3c0,0.2-0.1,0.5-0.4,0.6C14.4,22.7,12.9,23,11.5,23z M8.1,21.2c1.1,0.4,2.2,0.6,3.4,0.6s2.3-0.2,3.4-0.6
+                                    v-4.9c0-1.2-0.9-2.1-2.1-2.1h-2.6c-1.2,0-2.1,0.9-2.1,2.1V21.2z"></path>
+                        </g>
+                    </svg>  
+                </label>
+            </div>
+        </div>
+        <div class="content">
+            <div class="navigation">
+                <div class="logo">
+                    <a href="#" class="logo__home-link">
+                        <img src="./Wine__Tour-img/logo.png" alt="" class="logo-img">    
+                    </a>
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__items nav__items-home ">
+                        <a href="#" class="active nav__items-link hover-underline-animation ">
+                            <span class="">Home</span>
+                        </a>
+                        <div class="sub-nav__home">
+                            <ul class="nav__home-list">
+                                <li class="nav__home-items ">
+                                    <a href="#" class="nav__home-link hover-underline-animation">
+                                        <span>Travel Agency</span> </a>
+                                </li>
+                                <li class="nav__home-items">
+                                    <a href="#" class="nav__home-link hover-underline-animation">
+                                        <span>Winter Holidays</span>  
+                                    </a>
+                                </li>
+                                <li class="nav__home-items">
+                                    <a href="#" class="nav__home-link hover-underline-animation"> <span>Exotic Destinations</span></a>
+                                </li>
+                                <li class="nav__home-items">
+                                    <a href="#" class="nav__home-link hover-underline-animation"><span>Summer Holidays</span> </a>
+                                </li>
+                                <li class="nav__home-items">
+                                    <a href="#" class="nav__home-link hover-underline-animation"><span>City Tours</span></a>
+                                </li>
+                                <li class="nav__home-items">
+                                    <a href="#" class="nav__home-link hover-underline-animation"><span>New Year Trips</span></a>
+                                </li>
+                                <li class="nav__home-items">
+                                    <a href="#" class="nav__home-link hover-underline-animation"><span>Destination Carousel</span></a>
+                                </li>
+                                <li class="nav__home-items">
+                                    <a href="#" class="nav__home-link hover-underline-animation active"><span>Wine Tours</span></a>
+                                </li>
+                                <li class="nav__home-items">
+                                    <a href="#" class="nav__home-link hover-underline-animation"><span>Vacation Showcase</span></a>
+                                </li>
+                                <li class="nav__home-items">
+                                    <a href="#" class="nav__home-link hover-underline-animation"><span>Landing</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav__items nav__items-pages">
+                        <a href="#" class="nav__items-link hover-underline-animation">                  
+                        <span>Pages</span>    
+                        </a>
+                        <div class="sub-nav__pages">
+                            <ul class="nav__pages-list">
+                                <li class="nav__pages-items">
+                                    <a href="#" class="nav__pages-link hover-underline-animation"><span>About Us</span> </a>
+                                </li>
+                                <li class="nav__pages-items">
+                                    <a href="#" class="nav__pages-link hover-underline-animation"><span>What We Offer</span> </a>
+                                </li>
+                                <li class="nav__pages-items">
+                                    <a href="#" class="nav__pages-link hover-underline-animation"><span>Our Team</span> </a>
+                                </li>
+                                <li class="nav__pages-items">
+                                    <a href="#" class="nav__pages-link hover-underline-animation"><span>Get In Touch</span> </a>
+                                </li>
+                                <li class="nav__pages-items">
+                                    <a href="#" class="nav__pages-link hover-underline-animation"><span> Contact Us</span></a>
+                                </li>
+                                <li class="nav__pages-items">
+                                    <a href="#" class="nav__pages-link hover-underline-animation"><span>FAQ Page</span> </a>
+                                </li>
+                                <li class="nav__pages-items">
+                                    <a href="#" class="nav__pages-link hover-underline-animation"><span>Comming Soon</span></a>
+                                </li>
+                                <li class="nav__pages-items">
+                                    <a href="#" class="nav__pages-link hover-underline-animation"><span>Error Page</span> </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav__items nav__items-destinations">
+                        <a href="#" class="nav__items-link hover-underline-animation">
+                        <span>Destinations</span> 
+                        </a>
+                        <div class="sub-nav__destinations">
+                            <ul class="nav__destinations-list">
+                                <li class="nav__destinations-items">
+                                    <a href="#" class="nav__destinations-link hover-underline-animation"><span>Destination List</span> </a>
+                                </li>
+                                <li class="nav__destinations-items">
+                                    <a href="#" class="nav__destinations-link hover-underline-animation"><span>Destination Slider</span></a>
+                                </li>
+                                <li class="nav__destinations-items">
+                                    <a href="#" class="nav__destinations-link hover-underline-animation"><span>Destination Item</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav__items  nav__items-tours"><a href="#" class="nav__items-link hover-underline-animation">
+                        <span>Tours</span>   
+                    </a>
+                    <div class="sub-nav__tours">
+                        <ul class="nav__tours-list">
+                            <li class="nav__tours-items">
+                                <a href="#" class="nav__tours-link hover-underline-animation"><span>Standard List</span> </a>
+                            </li>
+                            <li class="nav__tours-items">
+                                <a href="#" class="nav__tours-link hover-underline-animation"><span>Gallery List</span> </a>
+                            </li>
+                            <li class="nav__tours-items">
+                                <a href="#" class="nav__tours-link hover-underline-animation"><span>Split List</span> </a>
+                            </li>
+                            <li class="nav__tours-items">
+                                <a href="#" class="nav__tours-link hover-underline-animation"><span>Tour Item</span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                    <li class="nav__items  nav__items-blog"><a href="#" class="nav__items-link hover-underline-animation">
+                        <span>Blog</span> 
+                    </a>
+                        <div class="sub-nav__blog">
+                            <ul class="nav__blog-list">
+                                <li class="nav__blog-items">
+                                    <a href="#" class="nav__blog-link hover-underline-animation"><span>Blog Masonry</span> </a>
+                                </li>
+                                <li class="nav__blog-items nav__blog-items-pos-1">
+                                    <a href="#" class="nav__blog-link hover-underline-animation"><span>Blog Standard</span>
+                                        <i class="ti-angle-right arrow-right"></i>
+                                    </a>
+                                    <ul class="subnav__blog-list-1">
+                                        <li class="subnav__blog-items-1"><a href="#" class="subnav__blog-link-1 hover-underline-animation"><span>Right Sidebar</span></a></li>
+                                        <li class="subnav__blog-items-1"><a href="#" class="subnav__blog-link-1 hover-underline-animation"><span>Left Sidebar</span></a></li>
+                                        <li class="subnav__blog-items-1"><a href="#" class="subnav__blog-link-1 hover-underline-animation"><span>Without Sidebar</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav__blog-items nav__blog-items-pos-2">
+                                    <a href="#" class="nav__blog-link hover-underline-animation"><span>Post Type</span> 
+                                        <i class="ti-angle-right arrow-right"></i>
+                                    </a>
+                                    <ul class="subnav__blog-list-2">
+                                        <li class="subnav__blog-items-2"><a href="#" class="subnav__blog-link-2 hover-underline-animation"><span>Standard</span></a></li>
+                                        <li class="subnav__blog-items-2"><a href="#" class="subnav__blog-link-2 hover-underline-animation"><span>Gallery</span></a></li>
+                                        <li class="subnav__blog-items-2"><a href="#" class="subnav__blog-link-2 hover-underline-animation"><span>Link</span></a></li>
+                                        <li class="subnav__blog-items-2"><a href="#" class="subnav__blog-link-2 hover-underline-animation"><span>Quote</span></a></li>
+                                        <li class="subnav__blog-items-2"><a href="#" class="subnav__blog-link-2 hover-underline-animation"><span>Video</span></a></li>
+                                        <li class="subnav__blog-items-2"><a href="#" class="subnav__blog-link-2 hover-underline-animation"><span>Audio</span></a></li>
+                                        <li class="subnav__blog-items-2"><a href="#" class="subnav__blog-link-2 hover-underline-animation"><span>No Sidebar</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav__items  nav__items-shop"><a href="#" class="nav__items-link hover-underline-animation">
+                        <span>Shop</span>  
+                    </a>
+                    <div class="sub-nav__shop">
+                        <ul class="nav__shop-list">
+                            <li class="nav__shop-items">
+                                <a href="#" class="nav__shop-link hover-underline-animation"><span>Product List</span> </a>
+                            </li>
+                            <li class="nav__shop-items">
+                                <a href="#" class="nav__shop-link hover-underline-animation"><span>Product Single</span> </a>
+                            </li>
+                            <li class="nav__shop-items nav__shop-items-pos-1">
+                                <a href="#" class="nav__shop-link hover-underline-animation"><span>Shop Layouts</span> 
+                                <i class="ti-angle-right arrow-right"></i></a>
+                                <ul class="subnav__shop-list-1">
+                                    <li class="subnav__blog-items-1"><a href="#" class="subnav__blog-link-1 hover-underline-animation"><span>Three Columns</span></a></li>
+                                    <li class="subnav__blog-items-1"><a href="#" class="subnav__blog-link-1 hover-underline-animation"><span>Four Columns</span></a></li>
+                                    <li class="subnav__blog-items-1"><a href="#" class="subnav__blog-link-1 hover-underline-animation"><span>Full Columns</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__shop-items nav__shop-items-pos-2">
+                                <a href="#" class="nav__shop-link hover-underline-animation"><span>Shop Page</span>                                
+                                <i class="ti-angle-right arrow-right"></i> </a>
+                                <ul class="subnav__shop-list-2">
+                                    <li class="subnav__blog-items-2"><a href="#" class="subnav__blog-link-2 hover-underline-animation"><span>My Account</span></a></li>
+                                    <li class="subnav__blog-items-2"><a href="#" class="subnav__blog-link-2 hover-underline-animation"><span>Cart</span></a></li>
+                                    <li class="subnav__blog-items-2"><a href="#" class="subnav__blog-link-2 hover-underline-animation"><span>Check Out</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div></li>
+                    <li class="nav__items hover-underline-animation show-subnav-full"><a href="#" class="nav__items-link">
+                        Elements
+                    </a>
+                    <ul class="subnav-5 box-shadow">
+                        <li class="subnav-5__items">
+                            <a href="" class="subnav-5__items-link active">
+                                FEATURED
+                            </a>
+                            <ul class="subnav-5__col">
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Tour List</span>                                  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Tour Carousel</span>                                  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Tour Filter</span>                                  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Destination With Tours</span>  
+                                    </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Destination List</span>                                  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Destination Fullscreeen Silder</span>  
+                                    </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Fullscreeen Sections</span>                                  </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="subnav-5__items">
+                            <a href="" class="subnav-5__items-link active">
+                                PRESENTATION
+                            </a>
+                            
+                            <ul class="subnav-5__col">
+                                <li class="subnav-full__items"><a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                        <span>Team
+                                    </span></a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Blog List</span>                                  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Shop List</span>                                  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Testimonials
+                                    </span>  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Banner
+                                    </span>  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Clients
+                                    </span>  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Parallax Section</span>                                  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Video Button</span>                                  </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="subnav-5__items">
+                            <a href="" class="subnav-5__items-link active">
+                                CLASSIC
+                            </a>
+                            
+                            <ul class="subnav-5__col">
+                                <li class="subnav-full__items"><a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                        <span>Accordions
+                                    </span></a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Tabs
+                                    </span>  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Buttons
+                                    </span>  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Google Maps</span>                                  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Contact Form</span>                                  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Progress Bar</span>                                  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Countdown
+                                    </span>  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Cournters
+                                    </span>  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Call To Action</span>  
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="subnav-5__items">
+                            <a href="" class="subnav-5__items-link active">
+                                TYPOGRAPHY
+                            </a>
+                            <ul class="subnav-5__col">
+                                <li class="subnav-full__items"><a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                        <span>Headings
+                                    </span></a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Columns
+                                    </span>  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Section Title</span>                                  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Blockquote
+                                    </span>  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Drropcaps
+                                    </span>  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Highlights
+                                    </span>  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Icon With Text</span>  
+                                    </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Separators
+                                    </span>  </a>
+                                </li>
+                                <li class="subnav-full__items">
+                                    <a href="" class="subnav-full__link hover-underline-animation hover-on">
+                                      <span>Custom Font</span>                                  </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="slider__intro">
+                <div class="row slider__container">
+                    <div class="main-slider col l-6 m-6 c-12">
+                        <div class="main-pic-slider">
+                            <img src="./Wine__Tour-img/travel-slide-1.jpg" alt="" class="main-pic-slider__img">
+                        </div>
+                        <img src="./Wine__Tour-img/travel-slide-img-1 (1).png" alt="" class="main-slider__sign-name">
+                    </div>
+                    <div class="sub-slider col l-3 m-3 c-12">
+                        <img src="./Wine__Tour-img/travel-slide-2.jpg" alt="" class="sub-slider__img">
+                    </div>
+                </div>
+            </div>
+            <div class="statictics__tours">
+                <div class="row statictics__container">
+                    <div class="statictics__picture col l-3 m-9 c-12">
+                        <img src="./Wine__Tour-img/travel-img-1.png" alt="" class="statictics__img">
+                    </div>
+                    <div class="statictics__info col l-5 l-o-1 m-9 c-12">
+                        <h3 class="statictics__info-text">Our Popular Tours</h3>
+                        <div class="statictics__info-sub-text">Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viver ra nulla ut metus varius laoreet. Quisque rutrum.</div>
+                        <div class="statictics__chart">
+                            <div class="statictics__chart-text">Countryside
+                                <span>76%</span>
+                            </div>
+                            <div class="statictics__chart-scrollbar">
+                                <div class="statictics__chart-info-scroll-1">
+                                    <div class="statictics__chart-sub-scroll"></div>
+                                    <div class="statictics__chart-sub-scroll"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="statictics__chart">
+                            <div class="statictics__chart-text">Vineyard
+                                <span>92%</span>
+                            </div>
+                            <div class="statictics__chart-scrollbar">
+                                <div class="statictics__chart-info-scroll-2">
+                                    <div class="statictics__chart-sub-scroll"></div>
+                                    <div class="statictics__chart-sub-scroll"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="statictics__chart">
+                            <div class="statictics__chart-text">Wine Tasting
+                                <span>86%</span>
+                            </div>
+                            <div class="statictics__chart-scrollbar">
+                                <div class="statictics__chart-info-scroll-3">
+                                    <div class="statictics__chart-sub-scroll"></div>
+                                    <div class="statictics__chart-sub-scroll"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row travel__countryside">
+                <div class="travel__countryside-container col l-9 m-9 c-12">
+                    <img src="./Wine__Tour-img/travel-img-2.jpg" alt="" class="travel__countryside-img">
+                </div>
+            </div>
+            <div class="tour-places">
+                <div class="tour-places__title">
+                    <h3 class="tour-places__title-text">The Best Tours</h3>
+                    <div class="tour-places__title-sub-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis</div>
+                </div>
+                <div class="tour-places__info">
+                    <div class="row tour-places__container ">
+                        <div class="tour-places__container col l-9 m-9 c-12">
+                            <div class="row">
+                                <div class="tour-place__col col l-3 m-6 c-12">
+                                    <div class="tour-place__img-container">
+                                        <img src="./Wine__Tour-img/tour-featured-img-33-1024x1024.jpg" alt="" class="tour-place__img">
+                                        <div class="tour-place__content-text">
+                                            <span class="tour-place__address">Wine Festival</span>
+                                            <span class="tour-place__prices">$550</span>
+                                        </div>
+                                    </div>
+                                    <div class="tour-place__img-container">
+                                        <img src="./Wine__Tour-img/tour-featured-img-37-1024x1024.jpg" alt="" class="tour-place__img">
+                                        <div class="tour-place__content">
+                                            <div class="tour-place__content-text">
+                                                <div class="tour-place__address">Champagne</div>
+                                                <div class="tour-place__prices">$2130</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tour-place__col col l-3 m-6 c-12">
+                                    <div class="tour-place__img-container tour-place__img--respon-mobile">
+                                        <img src="./Wine__Tour-img/tour-featured-img-34-1024x1024.jpg" alt="" class="tour-place__img">
+                                        <div class="tour-place__content">
+                                            <div class="tour-place__content-text">
+                                                <div class="tour-place__address">Wine Tasting</div>
+                                                <div class="tour-place__prices">$920</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tour-place__img-container">
+                                        <img src="./Wine__Tour-img/tour-featured-img-38-1024x1024.jpg" alt="" class="tour-place__img">
+                                        <div class="tour-place__content">
+                                            <div class="tour-place__content-text">
+                                                <div class="tour-place__address">Village</div>
+                                                <div class="tour-place__prices">$850</div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="tour-place__col col l-3 m-6 c-12">
+                                    <div class="tour-place__img-container tour-place__img-full tour-place__img-full--respon">
+                                        <img src="./Wine__Tour-img/tour-featured-img-35-650x1300.jpg" style = "height: calc(100%); width: 100%; object-fit: fill"  alt="" class="tour-place__img tour-place__img-full"> 
+                                        <div class="tour-place__content">
+                                            <div class="tour-place__content-text">
+                                                <div class="tour-place__address">Camping</div>
+                                                <div class="tour-place__prices">$1550</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tour-place__col col l-3 m-6 c-12">
+                                    <div class="tour-place__img-container tour-place__img--respon">
+                                        <img src="./Wine__Tour-img/tour-featured-img-36-1024x1024.jpg" alt="" class="tour-place__img">
+                                        <div class="tour-place__content">
+                                            <div class="tour-place__content-text">
+                                                <div class="tour-place__address">Harvest</div>
+                                                <div class="tour-place__prices">$2600</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tour-place__img-container">
+                                        <img src="./Wine__Tour-img/tour-featured-img-39-1024x1024.jpg" alt="" class="tour-place__img">
+                                        <div class="tour-place__content">
+                                            <div class="tour-place__content-text">
+                                                <div class="tour-place__address">Local Wines</div>
+                                                <div class="tour-place__prices">$1300</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="class-statictics">
+                <div class="row class-statictics__container">
+                    <div class="col l-9 m-9 c-12">
+                        <div class="row">
+                            <div class="class-statictics__field l-3 m-6 c-12">
+                                <span class="class-statictics__field-quantity">45</span>
+                                <span class="class-statictics__field-text">Glasses of Wine</span>
+                                <span class="class-statictics__field__sub-text">Cap at perspic iatis unde omnis iste natus error sit volup tatem</span>
+                            </div>
+                            <div class="class-statictics__field l-3 m-6 c-12">
+                                <span class="class-statictics__field-quantity">126</span>
+                                <span class="class-statictics__field-text">Years of experience</span>
+                                <span class="class-statictics__field__sub-text">Sop ut perspic iatis ande emnis iste natus error sit volup fatom</span>
+                            </div>
+                            <div class="class-statictics__field l-3 m-6 c-12">
+                                <span class="class-statictics__field-quantity">452</span>
+                                <span class="class-statictics__field-text">Unquie Wine</span>
+                                <span class="class-statictics__field__sub-text">Sed ut perspic iatis unde omnis iste natus error sit volup tatem</span>
+                            </div>
+                            <div class="class-statictics__field l-3 m-6 c-12">
+                                <span class="class-statictics__field-quantity">247</span>
+                                <span class="class-statictics__field-text">Sorts of Wine</span>
+                                <span class="class-statictics__field__sub-text">Cap of qerspic iatis ande umnis lcte natus error sit volup fatem</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="video-intro">
+                <div class="row video-intro__container">
+                    <div class="col l-9 m-9 c-12 video-intro__content">
+                        <img src="./Wine__Tour-img/travel-video-button-img.jpg" alt="" class="video-intro__content-img">
+                        <div class="play-btn">
+                            <img src="./Wine__Tour-img/play-button.png" alt="" class="play-btn__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-info-tour">
+                <div class="row more-info-tour__container">
+                    <div class="col l-6 m-9 c-12 more-info-tour__content">
+                        <div class="title__container">
+                            <h3 class="statictics__info-text">Our Popular Tours</h3>
+                            <div class="statictics__info-sub-text">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo</div>
+                        </div>
+                        <div class="row more-info-tour__achive">
+                            <div class="col l-6 m-12 c-12">
+                                <div class="more-info-tour__achive-items">
+                                    <img src="./Wine__Tour-img/travel-custom-img-1.png" alt="" class="more-info-tour__achive-img">
+                                    <span class="more-info-tour__achive-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</span>
+                                </div>
+                                <div class="more-info-tour__achive-items">
+                                    <img src="./Wine__Tour-img/travel-custom-img-2.png" alt="" class="more-info-tour__achive-img">
+                                    <span class="more-info-tour__achive-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</span>
+                                </div>
+                            </div>
+                            <div class="col l-6 m-12 c-12 margin-reponsive">
+                                <div class="more-info-tour__achive-items">
+                                    <img src="./Wine__Tour-img/travel-custom-img-3.png" alt="" class="more-info-tour__achive-img">
+                                    <span class="more-info-tour__achive-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</span>
+                                </div>
+                                <div class="more-info-tour__achive-items">
+                                    <img src="./Wine__Tour-img/travel-custom-img-4.png" alt="" class="more-info-tour__achive-img">
+                                    <span class="more-info-tour__achive-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-9 c-12 more-info-tour__img">
+                        <img src="./Wine__Tour-img/travel-img-3.png" alt="" class="more-info-tour__img-radius">
+                    </div>
+                </div>
+            </div>
+            <div class="header-responsive l-0">
+                <div class="container-header">
+                    <input type="checkbox" hidden name="" id="turn-on-submenu-respon" class="nav-responsive-check-btn">
+                    <label for="turn-on-submenu-respon" class="nav-responsive">
+                        <svg class="nav-responsive__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19px" height="17px" viewBox="0 0 26 20" enable-background="new 0 0 26 20" xml:space="preserve">
+                            <rect x="10.5" width="13.7" height="2.4"></rect>
+                            <rect x="8" y="8.8" width="16.2" height="2.4"></rect>
+                            <rect x="1.7" y="17.6" width="22.5" height="2.4"></rect>
+                        </svg>
+                    </label>
+                    <div class="nav-resonsive__menu">
+                        <ul class="nav-resonsive__menu-list">
+                            <li class="nav-resonsive__menu-items nav-resonsive__menu-items-home">
+                                <input type="checkbox"  hidden name="" id="check-nav" class="check-nav-input">
+                                    <label for="check-nav" class="nav-resonsive__menu-link active"><span>Home</span>
+                                    </label>
+                                    <i class="ti-angle-right arrow-right-animation"></i>
+
+                                <div class="sub-nav__home-respon" id="home-nav">
+                                    <ul class="nav__home-list-respon">
+                                        <li class="nav__home-items-respon">
+                                            <a href="#" class="nav__home-link-respon">
+                                                <span>Travel Agency</span> </a>
+                                        </li>
+                                        <li class="nav__home-items-respon">
+                                            <a href="#" class="nav__home-link-respon">
+                                                <span>Winter Holidays</span>  
+                                            </a>
+                                        </li>
+                                        <li class="nav__home-items-respon">
+                                            <a href="#" class="nav__home-link-respon"> <span>Exotic Destinations</span></a>
+                                        </li>
+                                        <li class="nav__home-items-respon">
+                                            <a href="#" class="nav__home-link-respon"><span>Summer Holidays</span> </a>
+                                        </li>
+                                        <li class="nav__home-items-respon">
+                                            <a href="#" class="nav__home-link-respon"><span>City Tours</span></a>
+                                        </li>
+                                        <li class="nav__home-items-respon">
+                                            <a href="#" class="nav__home-link-respon"><span>New Year Trips</span></a>
+                                        </li>
+                                        <li class="nav__home-items-respon">
+                                            <a href="#" class="nav__home-link-respon"><span>Destination Carousel</span></a>
+                                        </li>
+                                        <li class="nav__home-items-respon">
+                                            <a href="#" class="nav__home-link-respon active"><span>Wine Tours</span></a>
+                                        </li>
+                                        <li class="nav__home-items-respon">
+                                            <a href="#" class="nav__home-link-respon"><span>Vacation Showcase</span></a>
+                                        </li>
+                                        <li class="nav__home-items-respon">
+                                            <a href="#" class="nav__home-link-respon"><span>Landing</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+
+                            <li class="nav-resonsive__menu-items">
+                                <a href="#" class="nav-resonsive__menu-link"><span>Pages</span>
+                                </a>
+                                <i class="ti-angle-right arrow-right-animation"></i>
+                            </li>
+                            <li class="nav-resonsive__menu-items">
+                                <a href="#" class="nav-resonsive__menu-link"><span>Destinations</span>
+                                </a>
+                                <i class="ti-angle-right arrow-right-animation"></i>
+                            </li>
+                            <li class="nav-resonsive__menu-items">
+                                <a href="#" class="nav-resonsive__menu-link"><span>Tours</span>
+                                </a>
+                                <i class="ti-angle-right arrow-right-animation"></i>
+                            </li>
+                            <li class="nav-resonsive__menu-items">
+                                <a href="#" class="nav-resonsive__menu-link"><span>Blog</span>
+                                </a>
+                                <i class="ti-angle-right arrow-right-animation"></i>
+                            </li>
+                            <li class="nav-resonsive__menu-items">
+                                <a href="#" class="nav-resonsive__menu-link"><span>Shop</span>
+                                </a>
+                                <i class="ti-angle-right arrow-right-animation"></i>
+                            </li>
+                            <li class="nav-resonsive__menu-items">
+                                <a href="#" class="nav-resonsive__menu-link"><span>Elements</span>
+                                </a>
+                                <i class="ti-angle-right arrow-right-animation"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-reponsive__logo">
+                        <img src="./Wine__Tour-img/logo-white.png" alt="Logo" class="header-reponsive__logo-img">
+                    </div>
+                    <div class="user__login-responsive">
+                        <label for="turn-on" class="user__login-responsive">
+                            <svg class="user__login-responsive-icon" version="1.1" x="0px" y="0px" viewBox="0 0 23 23" enable-background="new 0 0 23 23" xml:space="preserve">
+                                <g>
+                                <path fill="currentColor" d="M11.5,14.1c-2.2,0-4-1.8-4-4c0-2.2,1.8-4,4-4s4,1.8,4,4C15.5,12.3,13.7,14.1,11.5,14.1z M11.5,7.3
+                                            c-1.6,0-2.8,1.3-2.8,2.8c0,1.6,1.3,2.8,2.8,2.8s2.8-1.3,2.8-2.8C14.3,8.5,13,7.3,11.5,7.3z"></path>
+                                <path fill="currentColor" d="M11.5,23c-3.1,0-5.9-1.2-8.1-3.4c-2.2-2.2-3.4-5-3.4-8.1s1.2-5.9,3.4-8.1c2.2-2.2,5-3.4,8.1-3.4
+                                            s5.9,1.2,8.1,3.4c2.2,2.2,3.4,5,3.4,8.1s-1.2,5.9-3.4,8.1C17.4,21.8,14.5,23,11.5,23z M11.5,1.2C5.8,1.2,1.2,5.9,1.2,11.5
+                                            s4.6,10.3,10.3,10.3s10.3-4.6,10.3-10.3S17.1,1.2,11.5,1.2z"></path>
+                                <path fill="currentColor" d="M11.5,23c-1.5,0-2.9-0.3-4.2-0.8c-0.2-0.1-0.4-0.3-0.4-0.6v-5.3c0-1.8,1.5-3.3,3.3-3.3h2.6
+                                            c1.8,0,3.3,1.5,3.3,3.3v5.3c0,0.2-0.1,0.5-0.4,0.6C14.4,22.7,12.9,23,11.5,23z M8.1,21.2c1.1,0.4,2.2,0.6,3.4,0.6s2.3-0.2,3.4-0.6
+                                            v-4.9c0-1.2-0.9-2.1-2.1-2.1h-2.6c-1.2,0-2.1,0.9-2.1,2.1V21.2z"></path>
+                                </g>
+                            </svg>  
+                        </label>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row footer__content">
+                <div class="col l-10 m-9 c-12">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-12 contact__content">
+                            <img src="./Wine__Tour-img/logo.png" alt="" class="contact__content-img">
+                            <div class="contact__content-text">Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae</div>
+                            <div class="contact__content-info">
+                                <span class="contact__content-info-text">
+                                    <i class="ti-email contact__content-info-icon"></i>
+                                    <a href="mailto:setsail@qode.com"  class="contact__content-info-link">setsail@qode.com</a>
+                                </span>
+                                <span class="contact__content-info-text">
+                                    <i class="ti-mobile contact__content-info-icon"></i>
+                                    <a href="tel:1 562 867 5309" class="contact__content-info-link">1 562 867 5309</a>
+                                </span>
+                                <span class="contact__content-info-text">
+                                    <i class="ti-location-pin contact__content-info-icon"></i>
+                                    <a href="#" class="contact__content-info-link">Broadway & Morris St, New York</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12 contact__content">
+                            <div class="contact__content-heading">
+                                <h3 class="contact__content-heading-text">Our Recent Posts</h3>
+                            </div>
+                            <div class="contact__content-tour">
+                                <span class="contact__content-tour-text">Vist ThaiLan, Bali and China</span>
+                                <span class="contact__content-tour-time">September 7, 2016</span>
+                            </div>
+                            <div class="contact__content-tour">
+                                <span class="contact__content-tour-text">The Sound Of Our Jungle</span>
+                                <span class="contact__content-tour-time">September 7, 2016</span>
+                            </div>
+                            <div class="contact__content-tour">
+                                <span class="contact__content-tour-text">New Year, New Resolutions!</span>
+                                <span class="contact__content-tour-time">September 7, 2016</span>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-12 contact__content margin-footer">
+                            <div class="contact__content-heading">
+                                <h3 class="contact__content-heading-text">Subscribe to our Newsletter</h3>
+                            </div>
+                            <div class="contact__content-sub-heading">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</div>
+                            <form class="contact__content-form">
+                                <div class="contact__content-form-login">
+                                    <input required type="text" class="contact__content-form-login-1" placeholder="Name">
+                                    <i class="ti-user contact__content-form-login-icon contact__content-form-login-icon-1"></i>
+                                </div>
+                                <div class="contact__content-form-login">
+                                    <input required type="password" class="contact__content-form-login-2" placeholder="Email">
+                                    <i class="ti-email contact__content-form-login-icon contact__content-form-login-icon-2"></i>
+                                </div>
+                                <button class="submit-btn">Subscribe</button>
+                            </form>
+                        </div>
+                        <div class="col l-3 m-6 c-12 contact__content margin-footer">
+                            <div class="contact__content-heading">
+                                <h3 class="contact__content-heading-text">Our Instagram</h3>
+                            </div>
+                            <div class="contact__content-sub-heading">Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright col l-12 m-12 c-12">
+                <span class="copyright-text">Powered by@
+                    <a href="#" class="copyright-link">Qode Interactive 2018</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <input type="checkbox" hidden name="" id="turn-on" class="turn-on__login-form">
+    <label for="turn-on" class="overlay">
+
+    </label>
+    <div class="login-form">
+        <div class="login__title">
+            <span class="login__title-name">LOGIN</span>
+            <span class="register__title-name">REGISTER</span>
+        </div>
+        <div class="login__content">
+            <span class="login__content-title ">Sign In Here!</span>
+            <span class="login__content-subtitl ">Log into your account in just a few simple steps.</span>
+
+            <div class="login__label">
+                <input type="text" class="login__label-form" placeholder="User Name">
+                <i class="ti-user login__user-icon"></i>
+                <input type="password" class="login__label-pass-form" placeholder="Password">
+                    <i class="ti-lock login__lock-icon"></i>
+            </div>
+            <input type="radio" name="" id="remember__check">
+            <label for="remember__check" class="remember__check-title">Remember Me</label>
+            <div class="forget__password-title">Lost Your Password?</div>
+            <button class="sign-in__btn">SIGN IN</button>
+            <span class="sign-in__title">Sign in with Facebook or Google+ </span>
+        </div> 
+        <div class="login__with">
+            <span class="login__with-facebook">FACEBOOK</span>
+            <span class="login__with-google">GOOGLE+</span>
+        </div> 
+
+    </div>
+</body>
+</html>
